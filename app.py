@@ -49,13 +49,13 @@ def main():
         "presence_penalty": 0.0
     }
     # get user API key
-    api_key = st.text_input("Enter your OpenAI API Key:", type="password")
+    api_key = st.text_input("Entrez votre clé d'OpenAI API:", type="password")
     
     if api_key:
         openai.api_key = api_key
 
         # get user input
-        user_input = st.text_input("Enter the document to classify:")
+        user_input = st.text_input("Entrez le document à classifier:")
 
         # classify input text
         if user_input:
