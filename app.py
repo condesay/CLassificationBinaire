@@ -29,7 +29,7 @@ def classify_document(prompt, engine,temperature, max_tokens, top_p, frequency_p
 
 def main():
     # Set page title
-    st.title("Analyse de Sentiment avec GPT3 App")
+    st.title("Classification en Spam et non SPam GPT3 App")
 
     # Set up sidebar options
     engine_options = {
