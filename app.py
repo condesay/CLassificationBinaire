@@ -41,7 +41,7 @@ def main():
     # Set up initial settings
     settings = {
         "engine": "Davinci",
-        "mode": "Sentiment Analysis",
+        "mode": "Classification",
         "temperature": 0.7,
         "max_tokens": 190,
         "top_p": 1.0,
