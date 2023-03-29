@@ -59,7 +59,8 @@ def main():
 
         # classify input text
         if user_input:
-            label = classify_document(user_input, settings["engine"], settings["temperature"], settings["max_tokens"], settings["top_p"], settings["frequency_penalty"], settings["presence_penalty"])
+            engine_id = engine_options[settings["engine"]][settings["mode"]]
+            label = classify_document(user_input,engine_id , settings["temperature"], settings["max_tokens"], settings["top_p"], settings["frequency_penalty"], settings["presence_penalty"])
             st.write("The document is:", label)
 
 
