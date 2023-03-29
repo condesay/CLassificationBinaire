@@ -34,7 +34,7 @@ def main():
     # Set up sidebar options
     engine_options = {
         "Davinci": {
-            "Sentiment Analysis": "text-davinci-002"
+            "Classification": "text-davinci-002"
         }
     }
 
